@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="bg-light" id="app">
     <router-view />
   </div>
 </template>
@@ -8,5 +8,8 @@
 
 
 
-<style>
+<style lang="scss">
+@import "./assets/_variables.scss";
+@import "bootstrap";
+// @import "./assets/solar.css";
 </style>

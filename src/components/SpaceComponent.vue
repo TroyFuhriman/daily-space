@@ -1,6 +1,6 @@
 <template>
-  <div class="spaceComponent col-6 text-center">
-    <div class="card">
+  <div class="spaceComponent col-md-6 col-12 text-center">
+    <div class="card shadow border border-dark">
       <img class="card-img-top" :src="space.hdurl" alt />
       <div class="card-body">
         <h4 class="card-title">{{space.title}}</h4>
